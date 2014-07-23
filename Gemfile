@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer',  platforms: :ruby
 
+gem 'minitest'
+
 group :doc do
 	# bundle exec rake doc:rails generates the API under doc/api.
 	gem 'sdoc', '~> 0.4.0', require: false
