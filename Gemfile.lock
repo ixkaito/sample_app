@@ -209,6 +209,7 @@ DEPENDENCIES
   jquery-rails
   libnotify
   minitest
+  nokogiri
   pg
   pry
   rails (= 4.1.1)

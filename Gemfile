@@ -22,6 +22,9 @@ group :test do
 	gem 'libnotify'
 end
 
+ENV['NOKOGIRI_USE_SYSTEM_LIBRARIES'] = 'yes'
+gem 'nokogiri'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
